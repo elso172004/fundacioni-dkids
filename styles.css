@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #0c4b75;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+}
+
+nav {
+  background: #05668d;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #028090;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+footer {
+  background: #0c4b75;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+#servicios {
+  position: relative;
+  background-image: url("img/fondo.jpg");
+  background-size: 100% 100%;    
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  color: white;                
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7); 
+ padding: 10px 40px
+  border-radius: 10px;
+}
+
+#servicios::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+#servicios h2, 
+#servicios p {
+  position: relative;
+  z-index: 2; 
+}
+.icono-red {
+  width: 400px;   
+  margin: 150px;
+}
